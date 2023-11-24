@@ -10,4 +10,4 @@ format:
 	black -q app/
 
 run:
-	streamlit run app/main.py
+	streamlit run app/main.py --server.port 8080
